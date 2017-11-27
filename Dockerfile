@@ -31,7 +31,8 @@ RUN apk --no-cache add \
         php7-xdebug \
         php7-pcntl \
         php7-tokenizer \
-        openssh-client
+        openssh-client \
+        ssh
 
 WORKDIR /tmp
 
